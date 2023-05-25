@@ -1,0 +1,35 @@
+/* @theme test */
+
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&display=swap');
+
+@import 'default';
+
+section {
+    font-family: 'Klee One';
+    /* font-family: 'Yuji Syuku'; */
+    font-size: 28px;
+}
+
+section.title {
+    text-align: center;
+}
+
+section.title h1 {
+    color: black;
+}
+
+section.slides {
+    
+}
+
+section strong {
+    background: linear-gradient(to bottom, transparent 80%, lime 80%);
+}
+
+section.image-column image:nth-child(1) {
+    position: absolute;
+    top: 5%;
+    right: 20px;
+    height: 30%;
+}
